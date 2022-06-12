@@ -1,0 +1,19 @@
+{
+  "name": "puppeteer-jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest ",
+    "format": "prettier --write \"./**/*.{js,ts,jsx,tsx}\" "
+  },
+  "dependencies": {
+    "jest": "^28.1.1",
+    "jest-puppeteer": "^6.1.0",
+    "puppeteer": "^14.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "@types/puppeteer": "^5.4.6"
+  }
+}
